@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/bracu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  BracU"
+        android:drawableLeft="@drawable/braculogo2"
+
+        android:onClick="Bracu"
+
+
+        />
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  About"
+        android:drawableLeft="@drawable/about"
+        android:onClick="About"
+
+
+        />
+
+    <Button
+        android:id="@+id/academic_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Academics"
+        android:drawableLeft="@drawable/academic"
+        android:onClick="Academics"
+
+
+        />
+
+    <Button
+        android:id="@+id/usis_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Usis"
+        android:drawableLeft="@drawable/usis"
+        android:onClick="Usis"
+
+
+        />
+    <Button
+        android:id="@+id/admission_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Admission"
+        android:drawableLeft="@drawable/admission"
+        android:onClick="Admission"
+
+
+        />
+
+
+
+        />
+    <Button
+        android:id="@+id/news_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  News and Notice"
+        android:drawableLeft="@drawable/news"
+        android:onClick="News"
+
+
+        />
+
+
+
+</LinearLayout>
+
+
